@@ -4,6 +4,11 @@
 			"input": "◌𑧔",
 			"expectation": "uni25CC=0+594|MatraU.Nnagari=0@-750,-37+0",
 			"note": "#1"
+		},
+		{
+			"input": "𑦮𑧠",
+			"expectation": "KaVirama.Nnagari=0+848",
+			"note": "#2"
 		}
 	]
 }
