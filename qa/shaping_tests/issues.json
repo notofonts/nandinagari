@@ -1,0 +1,9 @@
+{
+	"tests": [
+		{
+			"input": "◌𑧔",
+			"expectation": "uni25CC=0+594|MatraU.Nnagari=0@-750,-37+0",
+			"note": "#1"
+		}
+	]
+}
