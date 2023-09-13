@@ -2,7 +2,7 @@
                 <html lang="en">
                     <head>
                         <meta charset="utf-8">
-                        <title>Fontbakery Check Report</title>
+                        <title>FontBakery Check Report</title>
                         <style>
                             
             html {
@@ -59,8 +59,8 @@
                         </style>
                     </head>
                     <body>
-                    <h1>Fontbakery Technical Report</h1>
-<div>If you think a check is flawed or have an idea for a check, please  file an issue at <a href='https://github.com/googlefonts/fontbakery/issues'>https://github.com/googlefonts/fontbakery/issues</a> and remember to include a pointer to the repo and branch you're checking.</div>
+                    <h1>FontBakery Technical Report</h1>
+<div>If you think a check is flawed or have an idea for a check, please  file an issue at <a href='https://github.com/fonttools/fontbakery/issues'>https://github.com/fonttools/fontbakery/issues</a> and remember to include a pointer to the repo and branch you're checking.</div>
 <h2>Summary</h2>
             <table>
             <tr>
@@ -72,42 +72,84 @@
                 <th>✅ PASS</th>
             </tr>
             <tr>
-                <td>0</td>
-                <td>0</td>
-                <td>7</td>
-                <td>112</td>
-                <td>7</td>
-                <td>101</td>
+                <td>4</td>
+                <td>2</td>
+                <td>10</td>
+                <td>118</td>
+                <td>6</td>
+                <td>110</td>
             </tr>
             <tr>
-                <td>0%</td>
-                <td>0%</td>
+                <td>2%</td>
+                <td>1%</td>
                 <td>4%</td>
-                <td>67%</td>
-                <td>4%</td>
-                <td>60%</td>
+                <td>47%</td>
+                <td>2%</td>
+                <td>44%</td>
             </tr>
             </table>
             
 <p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, INFO, PASS, DEBUG</p>
-<h2>&lt;Section: Google Fonts&gt; ⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h2>&lt;Section: Google Fonts&gt; 💥💥🔥🔥⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Checking OS/2 achVendID.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/vendor_id&gt;</div>
+
+<details><summary>💥 <strong>fonts/NotoSansNandinagari/googlefonts/ttf/NotoSansNandinagari-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>The condition <a href="FontBakeryCondition:registered_vendor_ids">FontBakeryCondition:registered_vendor_ids</a> had an error: ModuleNotFoundError: No module named 'bs4'</p>
+</span></li></ul></div></details>
+<h3>Show hinting filesize impact.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/hinting_impact&gt;</div>
+
+<details><summary>💥 <strong>fonts/NotoSansNandinagari/googlefonts/ttf/NotoSansNandinagari-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>The condition <a href="FontBakeryCondition:hinting_stats">FontBakeryCondition:hinting_stats</a> had an error: ModuleNotFoundError: No module named 'dehinter'</p>
+</span></li></ul></div></details>
+<h3>Version number has increased since previous release on Google Fonts?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/version_bump&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansNandinagari/googlefonts/ttf/NotoSansNandinagari-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Version number 1.001007080078125 is equal to version on Google Fonts.</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Version number 1.001007080078125 is equal to version on Google Fonts GitHub repo.</p>
+</span></li></ul></div></details>
+<h3>Glyphs are similiar to Google Fonts version?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/production_glyphs_similarity&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansNandinagari/googlefonts/ttf/NotoSansNandinagari-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
+* BaBa.Nnagari
+* BaBa.Nnagari.ss03
+* BaBaRa.Nnagari.ss03
+* BaBha.Nnagari.ss03
+* BaDhaVa.Nnagari.ss02
+* BaGa.Nnagari
+* BaGa.Nnagari.ss03
+* BaGaRa.Nnagari
+* BaGaRa.Nnagari.ss03
+* BaLa.Nnagari and 158 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
+</span></li></ul></div></details>
 <h3>Combined length of family and style must not exceed 27 characters.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/family_and_style_max_length&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/NotoSansNandinagari/googlefonts/ttf/NotoSansNandinagari-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
 FONT_FAMILY_NAME = 'Noto Sans Nandinagari' / SUBFAMILY_NAME = 'Regular'</p>
-<p>Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
+<p>Please take a look at the conversation at https://github.com/fonttools/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]</p>
 </span></li></ul></div></details>
 <h3>Ensure fonts have ScriptLangTags declared on the 'meta' table.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/meta/script_lang_tags&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/NotoSansNandinagari/googlefonts/ttf/NotoSansNandinagari-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
 </span></li></ul></div></details>
-<h2>&lt;Section: Universal&gt; ⚠️⚠️⚠️⏩⏩⏩⏩ℹ️ℹ️</h2>
+<h3>Noto fonts must have an ARTICLE.en_us.html file</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/description/noto_has_article&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSansNandinagari/googlefonts/ttf/NotoSansNandinagari-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Universal&gt; ⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩ℹ️ℹ️</h2>
+<h3>Check if uppercase glyphs are vertically centered.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/caps_vertically_centered&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansNandinagari/googlefonts/ttf/NotoSansNandinagari-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Uppercase glyphs are not vertically centered in the em box. [code: vertical-metrics-not-centered]</p>
+</span></li></ul></div></details>
 <h3>Glyph names are all valid?</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/valid_glyphnames&gt;</div>
 
-<details><summary>⚠️ <strong>fonts/NotoSansNandinagari/googlefonts/ttf/NotoSansNandinagari-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
+<details><summary>⚠️ <strong>fonts/NotoSansNandinagari/googlefonts/ttf/NotoSansNandinagari-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-characters length limit:
 DoubleAnusvaraAntargomukha.Nnagari [code: legacy-long-names]</p>
 </span></li></ul></div></details>
 <h3>Check font contains no unreachable glyphs</h3>
@@ -126,9 +168,7 @@ DoubleAnusvaraAntargomukha.Nnagari [code: legacy-long-names]</p>
 
 - PhaVirama.Nnagari.ss01
 
-- TthaVirama.Nnagari.ss01 
-
-- And uni00A0.1
+- TthaVirama.Nnagari.ss01
 </code></pre>
 <p>[code: unreachable-glyphs]</p>
 </span></li></ul></div></details>
@@ -141,11 +181,20 @@ DoubleAnusvaraAntargomukha.Nnagari [code: legacy-long-names]</p>
 
 - Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
-- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
 </code></pre>
 <p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<h3>Check math signs have the same width.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/math_signs_width&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSansNandinagari/googlefonts/ttf/NotoSansNandinagari-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The most common width is 572 among a set of 6 math glyphs.
+The following math glyphs have a different width, though:</p>
+<p>Width = 322:
+minus
+[code: width-outliers]</p>
 </span></li></ul></div></details>
 <h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️</h2>
 <h3>Are any segments inordinately short?</h3>
@@ -170,9 +219,9 @@ DoubleAnusvaraAntargomukha.Nnagari [code: legacy-long-names]</p>
 
 * Q (U+0051) contains a short segment B&lt;&lt;403.5,-9.5&gt;-&lt;397.0,-10.0&gt;-&lt;391.0,-10.0&gt;&gt;
 
-* W (U+0057) contains a short segment B&lt;&lt;468.0,577.5&gt;-&lt;463.0,600.0&gt;-&lt;461.0,609.0&gt;&gt; 
+* W (U+0057) contains a short segment B&lt;&lt;468.0,577.5&gt;-&lt;463.0,600.0&gt;-&lt;461.0,609.0&gt;&gt;
 
-* And 77 more.
+* 77 more.
 </code></pre>
 <p>Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]</p>
 </span></li></ul></div></details>
@@ -180,10 +229,21 @@ DoubleAnusvaraAntargomukha.Nnagari [code: legacy-long-names]</p>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_semi_vertical&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/NotoSansNandinagari/googlefonts/ttf/NotoSansNandinagari-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
-<pre><code>* Dda.Nnagari (U+119BA): L&lt;&lt;371.0,559.0&gt;--&lt;60.0,558.0&gt;&gt; 
+<pre><code>* Dda.Nnagari (U+119BA): L&lt;&lt;371.0,559.0&gt;--&lt;60.0,558.0&gt;&gt;
 
-* And VowelO.Nnagari (U+119AC): L&lt;&lt;371.0,559.0&gt;--&lt;60.0,558.0&gt;&gt; [code: found-semi-vertical]
+* VowelO.Nnagari (U+119AC): L&lt;&lt;371.0,559.0&gt;--&lt;60.0,558.0&gt;&gt; [code: found-semi-vertical]
 </code></pre>
+</span></li></ul></div></details>
+<h2>&lt;Section: Shaping Checks&gt; 💥💥⏩</h2>
+<h3>Check that no collisions are found while shaping</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/shaping/collides&gt;</div>
+
+<details><summary>💥 <strong>fonts/NotoSansNandinagari/googlefonts/ttf/NotoSansNandinagari-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>Failed with ModuleNotFoundError: No module named 'collidoscope'</p>
+</span></li></ul></div></details>
+<h3>Ensure soft_dotted characters lose their dot when combined with marks that replace the dot.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/soft_dotted&gt;</div>
+
+<details><summary>💥 <strong>fonts/NotoSansNandinagari/googlefonts/ttf/NotoSansNandinagari-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>Failed with ModuleNotFoundError: No module named 'shaperglot'</p>
 </span></li></ul></div></details>
                     </body>
                 </html>
