@@ -1,7 +1,7 @@
 {
-.appVersion = "3109";
+.appVersion = "3205";
 DisplayStrings = (
-"/uni25CC"
+"/SaVirama.Nnagari/Sa.Nnagari"
 );
 classes = (
 {
@@ -32592,7 +32592,7 @@ subCategory = Other;
 },
 {
 glyphname = SaVirama.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-09-13 06:31:24 +0000";
 layers = (
 {
 components = (
@@ -32608,7 +32608,6 @@ layerId = "5370898B-AC2E-42A7-894F-0BCCE5AE0A77";
 width = 801;
 }
 );
-rightKerningGroup = SaHalf;
 },
 {
 glyphname = HaVirama.Nnagari;
