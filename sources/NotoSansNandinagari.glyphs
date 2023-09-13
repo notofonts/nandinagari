@@ -919,7 +919,7 @@ code = "lookup akhn {\012sub	Ka.Nnagari Virama.Nnagari Ssa.Nnagari Virama.Nnagar
 name = akhn;
 },
 {
-code = "lookup rphf {\012sub Ra.Nnagari Virama.Nnagari by Reph.Nnagari;\012} rphf;\012";
+code = "lookup rphf {\012lookupflag UseMarkFilteringSet [Virama.Nnagari];\012sub Ra.Nnagari' Virama.Nnagari' @AllLetters by Reph.Nnagari;\012} rphf;\012";
 name = rphf;
 },
 {
