@@ -2,7 +2,7 @@
 .appVersion = "3221";
 DisplayStrings = (
 "/TaKaLa.Nnagari.ss02/BaGa.Nnagari/Sa.Nnagari",
-"/Reph.Nnagari/Dha.Nnagari/BaDha.Nnagari"
+"/Reph.Nnagari/Dha.Nnagari/Prishthamatrae.Nnagari/Prishthamatrae.Nnagari.prenya/Nya.Nnagari"
 );
 classes = (
 {
@@ -932,7 +932,7 @@ code = "lookup half {\012lookupflag UseMarkFilteringSet [Virama.Nnagari];\012ign
 name = half;
 },
 {
-code = "lookup PresAlt { #for without-Danda versions of 2 letter half forms\012sub	TaHalf.Nnagari' @SaPost by TaHalf1.Nnagari;\012sub	NaHalf.Nnagari' @SaPost by NaHalf1.Nnagari;\012sub	MaHalf.Nnagari' Pa.Nnagari by MaHalf1.Nnagari;\012sub	MaHalf.Nnagari' Pha.Nnagari by MaHalf1.Nnagari;\012} PresAlt ;\012\012lookup Halant { # to display Halant Forms\012sub	Reph.Nnagari zerowidthnonjoiner  by RaVirama.Nnagari;\012sub KaSsaHalf.Nnagari zerowidthnonjoiner	 by	KaSsaVirama.Nnagari;\012sub KaHalf.Nnagari zerowidthnonjoiner	 by	KaVirama.Nnagari;\012sub KhaHalf.Nnagari zerowidthnonjoiner	 by	KhaVirama.Nnagari;\012sub GaHalf.Nnagari zerowidthnonjoiner	 by	GaVirama.Nnagari;\012sub GhaHalf.Nnagari zerowidthnonjoiner	 by	GhaVirama.Nnagari;\012sub NgaHalf.Nnagari zerowidthnonjoiner	 by	NgaVirama.Nnagari;\012sub CaHalf.Nnagari zerowidthnonjoiner	 by	CaVirama.Nnagari;\012sub ChaHalf.Nnagari zerowidthnonjoiner	 by	ChaVirama.Nnagari;\012sub JaHalf.Nnagari zerowidthnonjoiner	 by	JaVirama.Nnagari;\012sub JhaHalf.Nnagari zerowidthnonjoiner	 by	JhaVirama.Nnagari;\012sub TtaHalf.Nnagari zerowidthnonjoiner	 by	TtaVirama.Nnagari;\012sub TthaHalf.Nnagari zerowidthnonjoiner	 by	TthaVirama.Nnagari;\012sub DdaHalf.Nnagari zerowidthnonjoiner	 by	DdaVirama.Nnagari;\012sub DdhaHalf.Nnagari zerowidthnonjoiner	 by	DdhaVirama.Nnagari;\012sub NnaHalf.Nnagari zerowidthnonjoiner	 by	NnaVirama.Nnagari;\012sub TaHalf.Nnagari zerowidthnonjoiner	 by	TaVirama.Nnagari;\012sub ThaHalf.Nnagari zerowidthnonjoiner	 by	ThaVirama.Nnagari;\012sub DaHalf.Nnagari zerowidthnonjoiner	 by	DaVirama.Nnagari;\012sub DhaHalf.Nnagari zerowidthnonjoiner	 by	DhaVirama.Nnagari;\012sub NaHalf.Nnagari zerowidthnonjoiner	 by	NaVirama.Nnagari;\012sub PaHalf.Nnagari zerowidthnonjoiner	 by	PaVirama.Nnagari;\012sub PhaHalf.Nnagari zerowidthnonjoiner	 by	PhaVirama.Nnagari;\012sub BaHalf.Nnagari zerowidthnonjoiner	 by	BaVirama.Nnagari;\012sub BhaHalf.Nnagari zerowidthnonjoiner	 by	BhaVirama.Nnagari;\012sub MaHalf.Nnagari zerowidthnonjoiner	 by	MaVirama.Nnagari;\012sub YaHalf.Nnagari zerowidthnonjoiner	 by	YaVirama.Nnagari;\012sub LaHalf.Nnagari zerowidthnonjoiner	 by	LaVirama.Nnagari;\012sub VaHalf.Nnagari zerowidthnonjoiner	 by	VaVirama.Nnagari;\012sub ShaHalf.Nnagari zerowidthnonjoiner	 by	ShaVirama.Nnagari;\012sub SsaHalf.Nnagari zerowidthnonjoiner	 by	SsaVirama.Nnagari;\012sub SaHalf.Nnagari zerowidthnonjoiner	 by	SaVirama.Nnagari;\012sub HaHalf.Nnagari zerowidthnonjoiner	 by	HaVirama.Nnagari;\012sub LlaHalf.Nnagari zerowidthnonjoiner	 by	LlaVirama.Nnagari;\012sub RraHalf.Nnagari zerowidthnonjoiner	 by	RraVirama.Nnagari;\012} Halant ;";
+code = "lookup PresAlt { #for without-Danda versions of 2 letter half forms\012sub	TaHalf.Nnagari' @SaPost by TaHalf1.Nnagari;\012sub	NaHalf.Nnagari' @SaPost by NaHalf1.Nnagari;\012sub	MaHalf.Nnagari' Pa.Nnagari by MaHalf1.Nnagari;\012sub	MaHalf.Nnagari' Pha.Nnagari by MaHalf1.Nnagari;\012} PresAlt ;\012\012lookup Halant { # to display Halant Forms\012sub	Reph.Nnagari zerowidthnonjoiner  by RaVirama.Nnagari;\012sub KaSsaHalf.Nnagari zerowidthnonjoiner	 by	KaSsaVirama.Nnagari;\012sub KaHalf.Nnagari zerowidthnonjoiner	 by	KaVirama.Nnagari;\012sub KhaHalf.Nnagari zerowidthnonjoiner	 by	KhaVirama.Nnagari;\012sub GaHalf.Nnagari zerowidthnonjoiner	 by	GaVirama.Nnagari;\012sub GhaHalf.Nnagari zerowidthnonjoiner	 by	GhaVirama.Nnagari;\012sub NgaHalf.Nnagari zerowidthnonjoiner	 by	NgaVirama.Nnagari;\012sub CaHalf.Nnagari zerowidthnonjoiner	 by	CaVirama.Nnagari;\012sub ChaHalf.Nnagari zerowidthnonjoiner	 by	ChaVirama.Nnagari;\012sub JaHalf.Nnagari zerowidthnonjoiner	 by	JaVirama.Nnagari;\012sub JhaHalf.Nnagari zerowidthnonjoiner	 by	JhaVirama.Nnagari;\012sub TtaHalf.Nnagari zerowidthnonjoiner	 by	TtaVirama.Nnagari;\012sub TthaHalf.Nnagari zerowidthnonjoiner	 by	TthaVirama.Nnagari;\012sub DdaHalf.Nnagari zerowidthnonjoiner	 by	DdaVirama.Nnagari;\012sub DdhaHalf.Nnagari zerowidthnonjoiner	 by	DdhaVirama.Nnagari;\012sub NnaHalf.Nnagari zerowidthnonjoiner	 by	NnaVirama.Nnagari;\012sub TaHalf.Nnagari zerowidthnonjoiner	 by	TaVirama.Nnagari;\012sub ThaHalf.Nnagari zerowidthnonjoiner	 by	ThaVirama.Nnagari;\012sub DaHalf.Nnagari zerowidthnonjoiner	 by	DaVirama.Nnagari;\012sub DhaHalf.Nnagari zerowidthnonjoiner	 by	DhaVirama.Nnagari;\012sub NaHalf.Nnagari zerowidthnonjoiner	 by	NaVirama.Nnagari;\012sub PaHalf.Nnagari zerowidthnonjoiner	 by	PaVirama.Nnagari;\012sub PhaHalf.Nnagari zerowidthnonjoiner	 by	PhaVirama.Nnagari;\012sub BaHalf.Nnagari zerowidthnonjoiner	 by	BaVirama.Nnagari;\012sub BhaHalf.Nnagari zerowidthnonjoiner	 by	BhaVirama.Nnagari;\012sub MaHalf.Nnagari zerowidthnonjoiner	 by	MaVirama.Nnagari;\012sub YaHalf.Nnagari zerowidthnonjoiner	 by	YaVirama.Nnagari;\012sub LaHalf.Nnagari zerowidthnonjoiner	 by	LaVirama.Nnagari;\012sub VaHalf.Nnagari zerowidthnonjoiner	 by	VaVirama.Nnagari;\012sub ShaHalf.Nnagari zerowidthnonjoiner	 by	ShaVirama.Nnagari;\012sub SsaHalf.Nnagari zerowidthnonjoiner	 by	SsaVirama.Nnagari;\012sub SaHalf.Nnagari zerowidthnonjoiner	 by	SaVirama.Nnagari;\012sub HaHalf.Nnagari zerowidthnonjoiner	 by	HaVirama.Nnagari;\012sub LlaHalf.Nnagari zerowidthnonjoiner	 by	LlaVirama.Nnagari;\012sub RraHalf.Nnagari zerowidthnonjoiner	 by	RraVirama.Nnagari;\012} Halant ;\012\012sub Prishthamatrae.Nnagari' Nya.Nnagari by Prishthamatrae.Nnagari.prenya;";
 name = pres;
 },
 {
@@ -2453,7 +2453,7 @@ subCategory = Other;
 },
 {
 glyphname = Nya.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 13:54:11 +0000";
 layers = (
 {
 anchors = (
@@ -39407,6 +39407,39 @@ nodes = (
 width = 860;
 }
 );
+},
+{
+glyphname = Prishthamatrae.Nnagari.prenya;
+lastChange = "2023-10-16 13:54:17 +0000";
+layers = (
+{
+layerId = "5370898B-AC2E-42A7-894F-0BCCE5AE0A77";
+paths = (
+{
+closed = 1;
+nodes = (
+"193 0 LINE",
+"193 622 LINE",
+"115 622 LINE",
+"115 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"612 558 LINE",
+"745 622 LINE",
+"164 622 LINE",
+"164 558 LINE"
+);
+}
+);
+width = 288;
+}
+);
+script = "";
+category = Mark;
+subCategory = "";
 }
 );
 instances = (
@@ -39719,6 +39752,12 @@ Anusvara.Nnagari = -100;
 };
 Pha.Nnagari = {
 "@MMK_R_MatraIi.Nnagari" = 0;
+};
+Prishthamatrae.Nnagari = {
+Prishthamatrae.Nnagari.prenya = 0;
+};
+Prishthamatrae.Nnagari.prenya = {
+Nya.Nnagari = 0;
 };
 SsaKa.Nnagari = {
 "@MMK_R_MatraIi2.Nnagari" = -2;
