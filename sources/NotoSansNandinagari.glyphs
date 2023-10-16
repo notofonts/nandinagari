@@ -2,7 +2,9 @@
 .appVersion = "3221";
 DisplayStrings = (
 "/TaKaLa.Nnagari.ss02/BaGa.Nnagari/Sa.Nnagari",
-"/Reph.Nnagari/Dha.Nnagari/Prishthamatrae.Nnagari/Prishthamatrae.Nnagari.prenya/Nya.Nnagari"
+"/LlaLla.Nnagari",
+"/MaNa.Nnagari/NaBa.Nnagari/NaBa.Nnagari.ss03/NaBaRa.Nnagari/NaBaRa.Nnagari.ss03/NaBha.Nnagari/NaBhaRa.Nnagari/NaBhaRa.Nnagari.ss03/NaMaLa.Nnagari/NaMaRa.Nnagari/NaMaRa.Nnagari.ss03/NaNaVa.Nnagari/NaPaSa.Nnagari/NaVa.Nnagari/NaVaRa.Nnagari/NaVaRa.Nnagari.ss03/SsaNnaVa.Nnagari/TaKaSsaMa.Nnagari.ss02/TaRaVa.Nnagari.ss03/ThaVa.Nnagari/YaVa.Nnagari",
+"/PaTaVa.Nnagari"
 );
 classes = (
 {
@@ -866,6 +868,10 @@ value = (
 },
 {
 name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Propagate Anchors";
 value = 1;
 },
 {
@@ -7917,9 +7923,19 @@ subCategory = Other;
 {
 color = 10;
 glyphname = GaNa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:06:53 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{546, -242.837}";
+},
+{
+name = top;
+position = "{550, 602}";
+}
+);
 components = (
 {
 name = _part.Na;
@@ -7949,9 +7965,19 @@ subCategory = Other;
 {
 color = 10;
 glyphname = GaBa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:06:25 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{546, -242.837}";
+},
+{
+name = top;
+position = "{550, 602}";
+}
+);
 components = (
 {
 name = _part.Ba;
@@ -7984,9 +8010,19 @@ subCategory = Other;
 {
 color = 10;
 glyphname = GaBaRa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:06:35 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{546, -341}";
+},
+{
+name = top;
+position = "{550, 602}";
+}
+);
 components = (
 {
 name = _part.Ba;
@@ -8020,9 +8056,19 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 10;
 glyphname = GaBha.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:06:40 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{546, -242.837}";
+},
+{
+name = top;
+position = "{550, 602}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -8053,9 +8099,19 @@ subCategory = Other;
 {
 color = 10;
 glyphname = GaBhaRa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:06:44 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{546, -239}";
+},
+{
+name = top;
+position = "{550, 602}";
+}
+);
 components = (
 {
 name = _part.Ra;
@@ -8128,9 +8184,19 @@ subCategory = Other;
 {
 color = 10;
 glyphname = GaRaVa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:07:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{546, -341}";
+},
+{
+name = top;
+position = "{550, 602}";
+}
+);
 components = (
 {
 name = _part.Ra;
@@ -8167,9 +8233,19 @@ subCategory = Other;
 {
 color = 10;
 glyphname = GaLa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:06:48 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{546, -242.837}";
+},
+{
+name = top;
+position = "{550, 602}";
+}
+);
 components = (
 {
 name = _part.La;
@@ -8199,9 +8275,19 @@ subCategory = Other;
 {
 color = 10;
 glyphname = GaVa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:07:09 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{546, -242.837}";
+},
+{
+name = top;
+position = "{550, 602}";
+}
+);
 components = (
 {
 name = _part.Va;
@@ -8234,9 +8320,19 @@ subCategory = Other;
 {
 color = 10;
 glyphname = GaVaRa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:07:12 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{546, -341}";
+},
+{
+name = top;
+position = "{550, 602}";
+}
+);
 components = (
 {
 name = _part.Va;
@@ -9613,9 +9709,19 @@ rightMetricsKey = Ja.Nnagari;
 {
 color = 10;
 glyphname = JaMa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:11:28 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{1056, 0}";
+},
+{
+name = top;
+position = "{1062, 602}";
+}
+);
 components = (
 {
 name = _Ja.half;
@@ -12077,13 +12183,17 @@ subCategory = Other;
 {
 color = 10;
 glyphname = TaRaVa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:11:44 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{505, -161}";
+},
+{
+name = top;
+position = "{510, 602}";
 }
 );
 components = (
@@ -12310,9 +12420,19 @@ subCategory = Other;
 {
 color = 10;
 glyphname = ThaVa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:09:53 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{505, -242.837}";
+},
+{
+name = top;
+position = "{509, 602}";
+}
+);
 components = (
 {
 name = _part.Va;
@@ -12814,9 +12934,19 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 10;
 glyphname = DaDhaNa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:06:03 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{605, -293}";
+},
+{
+name = top;
+position = "{609, 602}";
+}
+);
 components = (
 {
 name = _DaDhaPart;
@@ -12847,9 +12977,19 @@ subCategory = Other;
 {
 color = 10;
 glyphname = DaDhaMa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:05:49 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{1321, 0}";
+},
+{
+name = top;
+position = "{1327, 602}";
+}
+);
 components = (
 {
 name = DaDha.Nnagari;
@@ -12876,13 +13016,17 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 10;
 glyphname = DaDhaRa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:11:17 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{604, -217}";
+},
+{
+name = top;
+position = "{609, 602}";
 }
 );
 components = (
@@ -12915,9 +13059,19 @@ subCategory = Other;
 {
 color = 10;
 glyphname = DaDhaVa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:06:11 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{605, -293}";
+},
+{
+name = top;
+position = "{609, 602}";
+}
+);
 components = (
 {
 name = _DaDhaPart;
@@ -14129,13 +14283,17 @@ subCategory = Other;
 {
 color = 10;
 glyphname = NaTa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:11:42 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{506, -163}";
+},
+{
+name = top;
+position = "{511, 602}";
 }
 );
 components = (
@@ -14178,13 +14336,17 @@ subCategory = Other;
 {
 color = 10;
 glyphname = NaNa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:11:41 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{507, -169}";
+},
+{
+name = top;
+position = "{512, 602}";
 }
 );
 components = (
@@ -14224,9 +14386,19 @@ subCategory = Other;
 {
 color = 10;
 glyphname = NaNaVa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:09:36 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{509, -341}";
+},
+{
+name = top;
+position = "{513, 602}";
+}
+);
 components = (
 {
 name = _part.Shirorekha;
@@ -14271,9 +14443,19 @@ subCategory = Other;
 {
 color = 10;
 glyphname = NaPaSa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:09:36 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{1333, 0}";
+},
+{
+name = top;
+position = "{1339, 602}";
+}
+);
 components = (
 {
 name = Na.Nnagari;
@@ -14322,9 +14504,19 @@ subCategory = Other;
 {
 color = 10;
 glyphname = NaBa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:09:26 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{507, -233}";
+},
+{
+name = top;
+position = "{511, 602}";
+}
+);
 components = (
 {
 name = _part.Shirorekha;
@@ -14365,9 +14557,19 @@ subCategory = Other;
 {
 color = 10;
 glyphname = NaBaRa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:09:27 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{509, -341}";
+},
+{
+name = top;
+position = "{513, 602}";
+}
+);
 components = (
 {
 name = _part.Shirorekha;
@@ -14412,9 +14614,19 @@ subCategory = Other;
 {
 color = 10;
 glyphname = NaBha.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:09:30 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{507, -163.021}";
+},
+{
+name = top;
+position = "{511, 602}";
+}
+);
 components = (
 {
 name = _Na.join;
@@ -14452,9 +14664,19 @@ subCategory = Other;
 {
 color = 10;
 glyphname = NaBhaRa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:09:31 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{507, -245}";
+},
+{
+name = top;
+position = "{511, 602}";
+}
+);
 components = (
 {
 name = _Na.join;
@@ -14529,9 +14751,19 @@ subCategory = Other;
 {
 color = 10;
 glyphname = NaMaRa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:09:34 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{771, -281}";
+},
+{
+name = top;
+position = "{775, 602}";
+}
+);
 components = (
 {
 name = _part.Ra;
@@ -14608,9 +14840,19 @@ subCategory = Other;
 {
 color = 10;
 glyphname = NaMaLa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:09:32 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{771, -281}";
+},
+{
+name = top;
+position = "{775, 602}";
+}
+);
 components = (
 {
 name = _Na.join;
@@ -14782,9 +15024,19 @@ subCategory = Other;
 {
 color = 10;
 glyphname = NaVa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:09:38 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{508, -149}";
+},
+{
+name = top;
+position = "{512, 602}";
+}
+);
 components = (
 {
 name = _part.Shirorekha;
@@ -14824,9 +15076,19 @@ subCategory = Other;
 {
 color = 10;
 glyphname = NaVaRa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:09:39 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{507, -341}";
+},
+{
+name = top;
+position = "{511, 602}";
+}
+);
 components = (
 {
 name = _part.Shirorekha;
@@ -15018,9 +15280,19 @@ subCategory = Other;
 {
 color = 10;
 glyphname = PaCaCha.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:11:57 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{497, -341}";
+},
+{
+name = top;
+position = "{513, 602}";
+}
+);
 components = (
 {
 name = _Pa.half;
@@ -15141,13 +15413,17 @@ subCategory = Other;
 {
 color = 10;
 glyphname = PaTaVa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:12:08 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{514, -197}";
+},
+{
+name = top;
+position = "{519, 602}";
 }
 );
 components = (
@@ -15510,9 +15786,19 @@ subCategory = Other;
 {
 color = 10;
 glyphname = BaGa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:05:27 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{526, -240.926}";
+},
+{
+name = top;
+position = "{530, 602}";
+}
+);
 components = (
 {
 name = _part.Shirorekha;
@@ -15687,9 +15973,19 @@ subCategory = Other;
 {
 color = 10;
 glyphname = BaDhaVa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:05:14 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{1116, 0}";
+},
+{
+name = top;
+position = "{998, 602}";
+}
+);
 components = (
 {
 name = BaDha.Nnagari;
@@ -15715,9 +16011,19 @@ subCategory = Other;
 {
 color = 10;
 glyphname = BaBa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:02:43 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{488, -241.4}";
+},
+{
+name = top;
+position = "{492, 602}";
+}
+);
 components = (
 {
 name = _part.Ba;
@@ -15761,9 +16067,19 @@ subCategory = Other;
 {
 color = 10;
 glyphname = BaBaRa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:03:19 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{488, -341}";
+},
+{
+name = top;
+position = "{492, 602}";
+}
+);
 components = (
 {
 name = _part.Shirorekha;
@@ -15811,13 +16127,17 @@ subCategory = Other;
 {
 color = 10;
 glyphname = BaBha.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:11:22 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{498, -179}";
+},
+{
+name = top;
+position = "{503, 602}";
 }
 );
 components = (
@@ -15860,13 +16180,17 @@ subCategory = Other;
 {
 color = 10;
 glyphname = BaRa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:11:20 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{488, -137}";
+},
+{
+name = top;
+position = "{493, 602}";
 }
 );
 components = (
@@ -15909,13 +16233,17 @@ subCategory = Other;
 {
 color = 10;
 glyphname = BaLa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:11:21 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{488, -137}";
+},
+{
+name = top;
+position = "{493, 602}";
 }
 );
 components = (
@@ -15961,9 +16289,19 @@ subCategory = Other;
 {
 color = 10;
 glyphname = BaVa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:05:42 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{489, -241.4}";
+},
+{
+name = top;
+position = "{493, 602}";
+}
+);
 components = (
 {
 name = _part.Shirorekha;
@@ -16313,9 +16651,19 @@ subCategory = Other;
 {
 color = 10;
 glyphname = MaNa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:09:25 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{525, -149}";
+},
+{
+name = top;
+position = "{529, 602}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -16348,13 +16696,17 @@ subCategory = Other;
 {
 color = 10;
 glyphname = MaBa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:11:33 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{527, -147}";
+},
+{
+name = top;
+position = "{532, 602}";
 }
 );
 components = (
@@ -16390,13 +16742,17 @@ subCategory = Other;
 {
 color = 10;
 glyphname = MaBha.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:11:35 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{527, -147}";
+},
+{
+name = top;
+position = "{532, 602}";
 }
 );
 components = (
@@ -16634,13 +16990,17 @@ subCategory = Other;
 {
 color = 10;
 glyphname = MaLa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:11:37 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{527, -113}";
+},
+{
+name = top;
+position = "{532, 602}";
 }
 );
 components = (
@@ -16673,13 +17033,17 @@ subCategory = Other;
 {
 color = 10;
 glyphname = MaVa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:11:38 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{527, -147}";
+},
+{
+name = top;
+position = "{532, 602}";
 }
 );
 components = (
@@ -16824,9 +17188,19 @@ subCategory = Other;
 {
 color = 10;
 glyphname = YaVa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:09:54 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{559, -242.837}";
+},
+{
+name = top;
+position = "{563, 602}";
+}
+);
 components = (
 {
 name = _part.Va;
@@ -16939,9 +17313,19 @@ subCategory = Other;
 {
 color = 10;
 glyphname = LaGa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:07:21 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{610, -241.4}";
+},
+{
+name = top;
+position = "{614, 602}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -16986,9 +17370,19 @@ subCategory = Other;
 {
 color = 10;
 glyphname = LaGaVa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:07:31 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{610, -341}";
+},
+{
+name = top;
+position = "{614, 602}";
+}
+);
 components = (
 {
 name = _part.Va;
@@ -17213,13 +17607,17 @@ subCategory = Other;
 {
 color = 10;
 glyphname = LaRa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:11:31 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{608, -179}";
+},
+{
+name = top;
+position = "{613, 602}";
 }
 );
 components = (
@@ -18209,9 +18607,19 @@ subCategory = Other;
 {
 color = 10;
 glyphname = SsaNnaVa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:09:42 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{514, -341}";
+},
+{
+name = top;
+position = "{518, 602}";
+}
+);
 components = (
 {
 name = _Ssa.half2;
@@ -18272,13 +18680,17 @@ subCategory = Other;
 {
 color = 10;
 glyphname = SsaPaVa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:11:43 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{956, -101}";
+},
+{
+name = top;
+position = "{961, 602}";
 }
 );
 components = (
@@ -18797,9 +19209,19 @@ subCategory = Other;
 {
 color = 10;
 glyphname = LlaGa.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:07:37 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{633, -240.926}";
+},
+{
+name = top;
+position = "{637, 602}";
+}
+);
 components = (
 {
 name = _part.Shirorekha;
@@ -18966,9 +19388,19 @@ rightMetricsKey = LaHa.Nnagari;
 {
 color = 10;
 glyphname = LlaLla.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:07:41 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{633, -149}";
+},
+{
+name = top;
+position = "{637, 602}";
+}
+);
 components = (
 {
 name = _part.Shirorekha;
@@ -19494,9 +19926,19 @@ rightMetricsKey = LaHa.Nnagari.ss01;
 {
 color = 0;
 glyphname = VowelA.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{625, 0}";
+},
+{
+name = top;
+position = "{631, 602}";
+}
+);
 components = (
 {
 name = _Ja.ss01.part;
@@ -19536,9 +19978,19 @@ subCategory = Other;
 {
 color = 0;
 glyphname = VowelAa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{898, 0}";
+},
+{
+name = top;
+position = "{904, 602}";
+}
+);
 components = (
 {
 name = VowelA.Nnagari.ss03;
@@ -19562,9 +20014,19 @@ subCategory = Other;
 {
 color = 0;
 glyphname = VowelAu.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{898, 0}";
+},
+{
+name = top;
+position = "{904, 602}";
+}
+);
 components = (
 {
 name = VowelAa.Nnagari.ss03;
@@ -19587,13 +20049,17 @@ subCategory = Other;
 {
 color = 0;
 glyphname = Ja.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{578, 0}";
+},
+{
+name = top;
+position = "{574, 602}";
 }
 );
 components = (
@@ -19638,7 +20104,7 @@ subCategory = Other;
 {
 color = 0;
 glyphname = Ba.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:03:43 +0000";
 layers = (
 {
 anchors = (
@@ -19735,7 +20201,7 @@ subCategory = Other;
 {
 color = 0;
 glyphname = Ra.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:03:43 +0000";
 layers = (
 {
 anchors = (
@@ -19903,9 +20369,19 @@ subCategory = Other;
 {
 color = 1;
 glyphname = KhaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{677, 0}";
+},
+{
+name = top;
+position = "{683, 602}";
+}
+);
 components = (
 {
 name = _Kha.wide;
@@ -19940,9 +20416,19 @@ subCategory = Other;
 {
 color = 1;
 glyphname = GaBaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{546, -341}";
+},
+{
+name = top;
+position = "{550, 602}";
+}
+);
 components = (
 {
 name = _part.Ba.ss01;
@@ -20203,7 +20689,7 @@ subCategory = Other;
 {
 color = 1;
 glyphname = ChaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
 anchors = (
@@ -20251,7 +20737,7 @@ subCategory = Other;
 {
 color = 1;
 glyphname = JhaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
 anchors = (
@@ -20615,13 +21101,17 @@ rightMetricsKey = Ttha.Nnagari;
 {
 color = 1;
 glyphname = TthaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{369, -120}";
+},
+{
+name = top;
+position = "{344, 602}";
 }
 );
 components = (
@@ -20777,9 +21267,19 @@ subCategory = Other;
 {
 color = 1;
 glyphname = NnaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{748, -240}";
+},
+{
+name = top;
+position = "{754, 602}";
+}
+);
 components = (
 {
 name = _part.Ra.half;
@@ -21162,13 +21662,17 @@ subCategory = Other;
 {
 color = 1;
 glyphname = DhaVa.Nnagari.ss01;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:11:16 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{570, -149}";
+},
+{
+name = top;
+position = "{575, 602}";
 }
 );
 components = (
@@ -21204,13 +21708,17 @@ subCategory = Other;
 {
 color = 1;
 glyphname = DhaVaRa.Nnagari.ss01;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:11:15 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{554, -341}";
+},
+{
+name = top;
+position = "{558, 602}";
 }
 );
 components = (
@@ -21353,9 +21861,19 @@ subCategory = Other;
 {
 color = 1;
 glyphname = PaCaCha.Nnagari.ss01;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:12:02 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{509, -315}";
+},
+{
+name = top;
+position = "{513, 602}";
+}
+);
 components = (
 {
 name = _Pa.half;
@@ -21477,13 +21995,17 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 1;
 glyphname = MaBa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:11:34 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{527, -147}";
+},
+{
+name = top;
+position = "{532, 602}";
 }
 );
 components = (
@@ -21551,13 +22073,17 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 1;
 glyphname = LaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:11:32 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{608, -179}";
+},
+{
+name = top;
+position = "{613, 602}";
 }
 );
 components = (
@@ -22843,13 +23369,17 @@ subCategory = Other;
 {
 color = 3;
 glyphname = GaDha.Nnagari.ss02;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:11:26 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{610, -243}";
+},
+{
+name = top;
+position = "{614, 602}";
 }
 );
 components = (
@@ -23386,9 +23916,19 @@ subCategory = Other;
 {
 color = 3;
 glyphname = TaKaSsaMa.Nnagari.ss02;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:09:43 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{1276, 0}";
+},
+{
+name = top;
+position = "{1282, 602}";
+}
+);
 components = (
 {
 name = TaKaSsa.Nnagari;
@@ -23602,9 +24142,19 @@ subCategory = Other;
 {
 color = 3;
 glyphname = DaDhaMa.Nnagari.ss02;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:05:57 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{1270, 0}";
+},
+{
+name = top;
+position = "{1276, 602}";
+}
+);
 components = (
 {
 name = DaDha.Nnagari.ss02;
@@ -24050,7 +24600,7 @@ subCategory = Other;
 {
 color = 4;
 glyphname = KaKaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
 anchors = (
@@ -24107,7 +24657,7 @@ rightMetricsKey = Ka.Nnagari;
 {
 color = 4;
 glyphname = KaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
 anchors = (
@@ -24157,7 +24707,7 @@ rightMetricsKey = Ka.Nnagari;
 {
 color = 4;
 glyphname = KaTaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
 anchors = (
@@ -24214,13 +24764,17 @@ rightMetricsKey = Ka.Nnagari;
 {
 color = 4;
 glyphname = KaSsaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{680, 0}";
+},
+{
+name = top;
+position = "{339, 602}";
 }
 );
 components = (
@@ -24256,9 +24810,19 @@ rightMetricsKey = Ka.Nnagari;
 {
 color = 4;
 glyphname = GaDhaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{1108, 0}";
+},
+{
+name = top;
+position = "{990, 602}";
+}
+);
 components = (
 {
 name = _part.Ra.half;
@@ -24278,9 +24842,19 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 4;
 glyphname = GaBa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{546, -242.837}";
+},
+{
+name = top;
+position = "{550, 602}";
+}
+);
 components = (
 {
 name = _part.Ba.ss01;
@@ -24310,9 +24884,19 @@ subCategory = Other;
 {
 color = 4;
 glyphname = GaBhaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{546, -341}";
+},
+{
+name = top;
+position = "{550, 602}";
+}
+);
 components = (
 {
 name = _Bha.bottom;
@@ -24346,13 +24930,17 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 4;
 glyphname = GaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{546, -101}";
+},
+{
+name = top;
+position = "{551, 602}";
 }
 );
 components = (
@@ -24381,9 +24969,19 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 4;
 glyphname = GaRaVa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{546, -341}";
+},
+{
+name = top;
+position = "{550, 602}";
+}
+);
 components = (
 {
 name = _part.Ra.half;
@@ -24420,9 +25018,19 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 4;
 glyphname = GaVaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{546, -341}";
+},
+{
+name = top;
+position = "{550, 602}";
+}
+);
 components = (
 {
 name = _part.Ra.half;
@@ -24459,9 +25067,19 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 4;
 glyphname = GhaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{653, -100}";
+},
+{
+name = top;
+position = "{659, 602}";
+}
+);
 components = (
 {
 name = _part.Ra.half;
@@ -24481,7 +25099,7 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 4;
 glyphname = CaChaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
 anchors = (
@@ -24528,13 +25146,17 @@ rightMetricsKey = Ddha.Nnagari;
 {
 color = 4;
 glyphname = CaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{486, -161}";
+},
+{
+name = top;
+position = "{491, 602}";
 }
 );
 components = (
@@ -24556,7 +25178,7 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 4;
 glyphname = JaJa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
 anchors = (
@@ -24674,13 +25296,17 @@ subCategory = Other;
 {
 color = 4;
 glyphname = JaJaNya.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{884, -103}";
+},
+{
+name = top;
+position = "{551, 602}";
 }
 );
 components = (
@@ -24798,7 +25424,7 @@ subCategory = Other;
 {
 color = 4;
 glyphname = JaJha.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
 anchors = (
@@ -24866,9 +25492,19 @@ subCategory = Other;
 {
 color = 4;
 glyphname = JaMa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:11:29 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{945, 0}";
+},
+{
+name = top;
+position = "{951, 602}";
+}
+);
 components = (
 {
 name = _Ja.ss01.part;
@@ -24892,9 +25528,19 @@ subCategory = Other;
 {
 color = 4;
 glyphname = JaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{575, -241}";
+},
+{
+name = top;
+position = "{571, 602}";
+}
+);
 components = (
 {
 name = _part.Ra.half;
@@ -24918,10 +25564,14 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 4;
 glyphname = JaVa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
 anchors = (
+{
+name = bottom;
+position = "{575, -241}";
+},
 {
 name = top;
 position = "{581, 602}";
@@ -24953,13 +25603,17 @@ subCategory = Other;
 {
 color = 4;
 glyphname = TtaKaRa.Nnagari.ss03;
-lastChange = "2023-10-16 13:28:55 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{387, -400}";
+},
+{
+name = top;
+position = "{410, 602}";
 }
 );
 components = (
@@ -25050,9 +25704,19 @@ rightMetricsKey = Ka.Nnagari;
 {
 color = 4;
 glyphname = TtaTaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{469, -241}";
+},
+{
+name = top;
+position = "{385, 602}";
+}
+);
 components = (
 {
 name = _part.Ra.half;
@@ -25075,7 +25739,7 @@ rightMetricsKey = Tta.Nnagari;
 {
 color = 4;
 glyphname = TtaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
 anchors = (
@@ -25107,7 +25771,7 @@ rightMetricsKey = Tta.Nnagari;
 {
 color = 4;
 glyphname = DdaBa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
 anchors = (
@@ -25174,7 +25838,7 @@ subCategory = Other;
 {
 color = 4;
 glyphname = DdaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
 anchors = (
@@ -25221,7 +25885,7 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 4;
 glyphname = DdhaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
 anchors = (
@@ -25267,13 +25931,17 @@ rightMetricsKey = Ddha.Nnagari;
 {
 color = 4;
 glyphname = TaKaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{956, -101}";
+},
+{
+name = top;
+position = "{565, 602}";
 }
 );
 components = (
@@ -25320,9 +25988,19 @@ rightMetricsKey = Ka.Nnagari;
 {
 color = 4;
 glyphname = TaTaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{504, -109}";
+},
+{
+name = top;
+position = "{510, 602}";
+}
+);
 components = (
 {
 name = _part.Ra.half;
@@ -25345,9 +26023,19 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 4;
 glyphname = TaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{504, 0}";
+},
+{
+name = top;
+position = "{510, 602}";
+}
+);
 components = (
 {
 name = Ta.Nnagari;
@@ -25370,9 +26058,19 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 4;
 glyphname = TaRaVa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:09:49 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{506, -241.4}";
+},
+{
+name = top;
+position = "{510, 602}";
+}
+);
 components = (
 {
 name = _part.Shirorekha;
@@ -25421,9 +26119,19 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 4;
 glyphname = ThaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{504, -154}";
+},
+{
+name = top;
+position = "{510, 602}";
+}
+);
 components = (
 {
 name = _Tha.half;
@@ -25443,9 +26151,19 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 4;
 glyphname = DaGaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{442, -341}";
+},
+{
+name = top;
+position = "{438, 602}";
+}
+);
 components = (
 {
 name = _part.Ra.half;
@@ -25510,9 +26228,19 @@ rightMetricsKey = Da.Nnagari;
 {
 color = 4;
 glyphname = DaGhaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{462, -341}";
+},
+{
+name = top;
+position = "{458, 602}";
+}
+);
 components = (
 {
 name = _Ghasmall;
@@ -25537,9 +26265,19 @@ rightMetricsKey = Da.Nnagari;
 {
 color = 4;
 glyphname = DaDhaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{605, -216.654}";
+},
+{
+name = top;
+position = "{609, 602}";
+}
+);
 components = (
 {
 name = _part.Ra.half;
@@ -25570,9 +26308,19 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 4;
 glyphname = DaBa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{381, -101}";
+},
+{
+name = top;
+position = "{367, 602}";
+}
+);
 components = (
 {
 name = _part.Ba.ss01;
@@ -25599,9 +26347,19 @@ subCategory = Other;
 {
 color = 4;
 glyphname = DaBaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{442, -341}";
+},
+{
+name = top;
+position = "{438, 602}";
+}
+);
 components = (
 {
 name = _part.Ba.ss01;
@@ -25628,9 +26386,19 @@ rightMetricsKey = Da.Nnagari;
 {
 color = 4;
 glyphname = DaBhaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{378, -101}";
+},
+{
+name = top;
+position = "{364, 602}";
+}
+);
 components = (
 {
 name = DaBha.Nnagari;
@@ -25654,9 +26422,19 @@ rightMetricsKey = Da.Nnagari;
 {
 color = 4;
 glyphname = DaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{348, 0}";
+},
+{
+name = top;
+position = "{324, 602}";
+}
+);
 components = (
 {
 name = _part.Ra.half;
@@ -25680,9 +26458,19 @@ rightMetricsKey = Da.Nnagari;
 {
 color = 4;
 glyphname = DaRaVa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{442, -341}";
+},
+{
+name = top;
+position = "{438, 602}";
+}
+);
 components = (
 {
 name = _part.Ra.half;
@@ -25712,9 +26500,19 @@ rightMetricsKey = Da.Nnagari;
 {
 color = 4;
 glyphname = DaVaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{442, -341}";
+},
+{
+name = top;
+position = "{438, 602}";
+}
+);
 components = (
 {
 name = _part.Va;
@@ -25741,9 +26539,19 @@ rightMetricsKey = Da.Nnagari;
 {
 color = 4;
 glyphname = DhaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{713, 0}";
+},
+{
+name = top;
+position = "{595, 602}";
+}
+);
 components = (
 {
 name = _part.Ra.half;
@@ -25763,7 +26571,7 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 4;
 glyphname = DhaVaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
 anchors = (
@@ -25877,7 +26685,7 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 4;
 glyphname = NaKaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
 anchors = (
@@ -25934,9 +26742,19 @@ rightMetricsKey = Ka.Nnagari;
 {
 color = 4;
 glyphname = NaBa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:09:27 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{507, -221}";
+},
+{
+name = top;
+position = "{511, 602}";
+}
+);
 components = (
 {
 name = _part.Shirorekha;
@@ -25974,9 +26792,19 @@ subCategory = Other;
 {
 color = 4;
 glyphname = NaBaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:09:28 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{509, -341}";
+},
+{
+name = top;
+position = "{513, 602}";
+}
+);
 components = (
 {
 name = _part.Shirorekha;
@@ -26018,9 +26846,19 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 4;
 glyphname = NaBhaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:09:32 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{507, -241.461}";
+},
+{
+name = top;
+position = "{511, 602}";
+}
+);
 components = (
 {
 name = _Na.join;
@@ -26059,9 +26897,19 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 4;
 glyphname = NaMaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:09:35 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{770, -241.4}";
+},
+{
+name = top;
+position = "{774, 602}";
+}
+);
 components = (
 {
 name = _part.Ra.half;
@@ -26135,9 +26983,19 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 4;
 glyphname = NaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{455, 0}";
+},
+{
+name = top;
+position = "{461, 602}";
+}
+);
 components = (
 {
 name = _part.Ra.half;
@@ -26175,9 +27033,19 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 4;
 glyphname = NaVaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:09:40 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{507, -341}";
+},
+{
+name = top;
+position = "{511, 602}";
+}
+);
 components = (
 {
 name = _part.Ra.half;
@@ -26222,9 +27090,19 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 4;
 glyphname = PaTaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{508, -101}";
+},
+{
+name = top;
+position = "{513, 602}";
+}
+);
 components = (
 {
 name = _part.Ra.half;
@@ -26247,13 +27125,17 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 4;
 glyphname = PaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{508, 0}";
+},
+{
+name = top;
+position = "{513, 602}";
 }
 );
 components = (
@@ -26279,9 +27161,19 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 4;
 glyphname = BaGa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{526, -240.926}";
+},
+{
+name = top;
+position = "{530, 602}";
+}
+);
 components = (
 {
 name = _part.Shirorekha;
@@ -26323,7 +27215,7 @@ subCategory = Other;
 {
 color = 4;
 glyphname = BaGaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
 anchors = (
@@ -26420,9 +27312,19 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 4;
 glyphname = BaDha.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{1115, 0}";
+},
+{
+name = top;
+position = "{997, 602}";
+}
+);
 components = (
 {
 name = Ba.Nnagari.ss03;
@@ -26445,9 +27347,19 @@ subCategory = Other;
 {
 color = 4;
 glyphname = BaDhaVa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{1115, 0}";
+},
+{
+name = top;
+position = "{997, 602}";
+}
+);
 components = (
 {
 name = Ba.Nnagari.ss03;
@@ -26470,9 +27382,19 @@ subCategory = Other;
 {
 color = 4;
 glyphname = BaBa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{498, -241.263}";
+},
+{
+name = top;
+position = "{502, 602}";
+}
+);
 components = (
 {
 name = _part.Ba.ss01;
@@ -26516,9 +27438,19 @@ subCategory = Other;
 {
 color = 4;
 glyphname = BaBaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{478, -341}";
+},
+{
+name = top;
+position = "{482, 602}";
+}
+);
 components = (
 {
 name = _part.Shirorekha;
@@ -26566,9 +27498,19 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 4;
 glyphname = BaBha.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{499, -167}";
+},
+{
+name = top;
+position = "{503, 602}";
+}
+);
 components = (
 {
 name = _part.Shirorekha;
@@ -26609,9 +27551,19 @@ subCategory = Other;
 {
 color = 4;
 glyphname = BaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{499, -101}";
+},
+{
+name = top;
+position = "{503, 602}";
+}
+);
 components = (
 {
 name = _part.Shirorekha;
@@ -26646,9 +27598,19 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 4;
 glyphname = BaLa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{496, -161}";
+},
+{
+name = top;
+position = "{500, 602}";
+}
+);
 components = (
 {
 name = _part.Shirorekha;
@@ -26686,9 +27648,19 @@ subCategory = Other;
 {
 color = 4;
 glyphname = BaVa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{489, -241.4}";
+},
+{
+name = top;
+position = "{493, 602}";
+}
+);
 components = (
 {
 name = _part.Ba.ss01;
@@ -26729,9 +27701,19 @@ subCategory = Other;
 {
 color = 4;
 glyphname = BhaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{509, 0}";
+},
+{
+name = top;
+position = "{515, 602}";
+}
+);
 components = (
 {
 name = _RaAlt;
@@ -26755,9 +27737,19 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 4;
 glyphname = BhaRaVa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{510, -341}";
+},
+{
+name = top;
+position = "{514, 602}";
+}
+);
 components = (
 {
 name = _part.Ra.half;
@@ -26820,7 +27812,7 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 4;
 glyphname = MaMaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
 anchors = (
@@ -26863,9 +27855,19 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 4;
 glyphname = MaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{531, 0}";
+},
+{
+name = top;
+position = "{537, 602}";
+}
+);
 components = (
 {
 name = _part.Ra.half;
@@ -26893,9 +27895,19 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 4;
 glyphname = LaBa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{619, -241}";
+},
+{
+name = top;
+position = "{625, 602}";
+}
+);
 components = (
 {
 name = _part.Ba.ss01;
@@ -26921,9 +27933,19 @@ subCategory = Other;
 {
 color = 4;
 glyphname = VaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{462, -167}";
+},
+{
+name = top;
+position = "{468, 602}";
+}
+);
 components = (
 {
 name = _part.Ra.half;
@@ -26943,9 +27965,19 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 4;
 glyphname = ShaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{674, 0}";
+},
+{
+name = top;
+position = "{680, 602}";
+}
+);
 components = (
 {
 name = ShaHalf.Nnagari;
@@ -26984,13 +28016,17 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 4;
 glyphname = ShaRaVa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:23 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{744, -101}";
+},
+{
+name = top;
+position = "{749, 602}";
 }
 );
 components = (
@@ -27030,7 +28066,7 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 4;
 glyphname = SsaKaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:24 +0000";
 layers = (
 {
 anchors = (
@@ -27077,13 +28113,17 @@ rightMetricsKey = Ka.Nnagari;
 {
 color = 4;
 glyphname = SsaTtaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:24 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{524, -101}";
+},
+{
+name = top;
+position = "{529, 602}";
 }
 );
 components = (
@@ -27108,13 +28148,17 @@ subCategory = Other;
 {
 color = 4;
 glyphname = SsaTthaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:24 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{518, -341}";
+},
+{
+name = top;
+position = "{523, 602}";
 }
 );
 components = (
@@ -27150,13 +28194,17 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 4;
 glyphname = SsaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:24 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{524, -101}";
+},
+{
+name = top;
+position = "{529, 602}";
 }
 );
 components = (
@@ -27179,7 +28227,7 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 4;
 glyphname = SaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:24 +0000";
 layers = (
 {
 anchors = (
@@ -27290,9 +28338,19 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 4;
 glyphname = HaRa.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:24 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{581, -101}";
+},
+{
+name = top;
+position = "{370, 602}";
+}
+);
 components = (
 {
 name = _part.Ra.half;
@@ -27822,9 +28880,19 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 5;
 glyphname = DhaVaRa.Nnagari.ss04;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:06:18 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{536, -341}";
+},
+{
+name = top;
+position = "{540, 602}";
+}
+);
 components = (
 {
 name = _Dha.ss01.half;
@@ -29508,7 +30576,7 @@ subCategory = Nonspacing;
 {
 color = 7;
 glyphname = YaPost.Nnagari;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 13:59:09 +0000";
 layers = (
 {
 anchors = (
@@ -30259,7 +31327,7 @@ subCategory = Other;
 {
 color = 8;
 glyphname = KaRaPost.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:24 +0000";
 layers = (
 {
 anchors = (
@@ -30706,9 +31774,19 @@ rightMetricsKey = MatraAa.Nnagari;
 {
 color = 8;
 glyphname = PaRaPost1.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:24 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{308, 0}";
+},
+{
+name = top;
+position = "{314, 602}";
+}
+);
 components = (
 {
 name = _part.Ra.half;
@@ -32000,9 +33078,19 @@ subCategory = Other;
 },
 {
 glyphname = BaHalf.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:24 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{499, 0}";
+},
+{
+name = top;
+position = "{505, 602}";
+}
+);
 components = (
 {
 name = Ba.Nnagari.ss03;
@@ -32023,9 +33111,19 @@ subCategory = Other;
 },
 {
 glyphname = JaHalf.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:24 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{578, 0}";
+},
+{
+name = top;
+position = "{574, 602}";
+}
+);
 components = (
 {
 name = Ja.Nnagari.ss03;
@@ -33073,9 +34171,19 @@ subCategory = Other;
 },
 {
 glyphname = BaVirama.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:24 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{499, 0}";
+},
+{
+name = top;
+position = "{505, 602}";
+}
+);
 components = (
 {
 name = Ba.Nnagari.ss03;
@@ -33097,9 +34205,19 @@ subCategory = Other;
 },
 {
 glyphname = JaVirama.Nnagari.ss03;
-lastChange = "2021-11-05 10:04:10 +0000";
+lastChange = "2023-10-16 14:04:24 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{578, 0}";
+},
+{
+name = top;
+position = "{574, 602}";
+}
+);
 components = (
 {
 name = Ja.Nnagari.ss03;
