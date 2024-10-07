@@ -107,11 +107,11 @@
             .header {
             font-weight: bold;
             }
-            .attrib-old{
+            .attr-before{
                 color: red;
                 cursor: text;
             }
-            .attrib-new{
+            .attr-after{
                 color: green;
                 cursor: text;
             }
@@ -141,9 +141,13 @@
 			}
 
 	  
+
+	  
+
+	  
 	    @font-face{
-    src: url(old-NotoSansNandinagari-Regular.ttf);
-    font-family: "old Noto Sans Nandinagari";
+    src: url("NotoSansNandinagari-Regular.ttf");
+    font-family: "Noto Sans Nandinagari";
     font-weight: 400;
     
     font-style: normal;
@@ -151,37 +155,17 @@
 	  
 
 	  
-	    @font-face{
-    src: url(new-NotoSansNandinagari-Regular.ttf);
-    font-family: "new Noto Sans Nandinagari";
-    font-weight: 400;
-    
-    font-style: normal;
-}
-	  
 
 	  
 
 	  
-	    .old-Regular{
-    font-family: "old Noto Sans Nandinagari", "Adobe NotDef";
+	    .Regular{
+    font-family: "Noto Sans Nandinagari", "Adobe NotDef";
     font-weight: 400;
     
     font-style: normal;
     font-variation-settings: "wght" 400;
 }
-	  
-
-	  
-	    .new-Regular{
-    font-family: "new Noto Sans Nandinagari", "Adobe NotDef";
-    font-weight: 400;
-    
-    font-style: normal;
-    font-variation-settings: "wght" 400;
-}
-	  
-
 	  
 	
 #toolbar {
@@ -225,8 +209,6 @@
 </head>
 <body>
     <div id="nav">
-		
-			<div class="nav-item" id="font-toggle">old</div>
 		
 			<div class="nav-item" id="ot-button">OT features</div>
 			<div id="ot-panel">
